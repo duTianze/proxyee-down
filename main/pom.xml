@@ -70,10 +70,11 @@
       <artifactId>jna</artifactId>
       <version>4.5.1</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.yaml/snakeyaml -->
     <dependency>
       <groupId>org.yaml</groupId>
       <artifactId>snakeyaml</artifactId>
-      <version>1.19</version>
+      <version>1.27</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-websocket -->
     <dependency>
@@ -135,6 +136,16 @@
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
+      <version>14</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-all</artifactId>
+      <version>2.4.16</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-web</artifactId>
       <version>14</version>
     </dependency>
   </dependencies>

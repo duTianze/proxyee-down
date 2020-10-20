@@ -3,7 +3,8 @@ package org.pdown.gui.extension.jsruntime.polyfill;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.function.Function;
-import jdk.internal.dynalink.beans.StaticClass;
+
+import jdk.dynalink.beans.StaticClass;
 import org.pdown.gui.extension.jsruntime.polyfill.property.Console;
 import org.pdown.gui.extension.jsruntime.polyfill.property.Document;
 
